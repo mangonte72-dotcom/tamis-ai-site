@@ -649,3 +649,6 @@ button,a{-webkit-tap-highlight-color:rgba(92,155,255,.18)}
 .tv-qr span{font-size:13.5px;color:var(--dim);line-height:1.45}
 .tv-qr a{font-size:13.5px;color:var(--sky);width:max-content}
 @media (max-width:640px){.tv-qr{display:none}}
+/* QR: bigger, crisp, no extra padding (quiet zone is in the SVG) */
+.tv-qr img,.qr-card img,.qr-way img{padding:0;border-radius:8px;image-rendering:pixelated;image-rendering:crisp-edges}
+.tv-qr{gap:22px}
