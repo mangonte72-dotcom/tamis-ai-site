@@ -69,7 +69,7 @@ en:{
 var SVC_IDS = ["roadmaps","risques","strategie","formation","surveillance","automatisation","sites-web"];
 Object.assign(T.fr, {
   "svcIds": SVC_IDS,
-  "nav.menu":"Menu","more":"En savoir plus","swipe":"Faites glisser pour voir tous les services","qr.title":"Ouvrez le site sur votre téléphone","qr.sub":"Scannez ce code avec l’appareil photo.","qr.dl":"Télécharger le QR code","qr.dlShort":"Télécharger","qr.small":"QR code","skip":"Aller au contenu","svc.all.title":"Tous nos services","svc.all.text":"Détails, livrables, méthode et formules.",
+  "nav.menu":"Menu","more":"En savoir plus","swipe":"Faites glisser pour voir tous les services","qr.title":"Ouvrez le site sur votre téléphone","qr.sub":"Scannez ce code avec l’appareil photo.","qr.dl":"Télécharger le QR code","qr.dlShort":"Télécharger","qr.small":"QR code","tvqr.title":"Ouvrez TamisVigie sur votre téléphone","tvqr.sub":"Scannez avec l’appareil photo, puis ajoutez l’app à l’écran d’accueil.","skip":"Aller au contenu","svc.all.title":"Tous nos services","svc.all.text":"Détails, livrables, méthode et formules.",
   "foot.rights":"Tous droits réservés",
   /* À propos */
   "ab.eyebrow":"À propos de Tamis AI Solutions",
@@ -107,7 +107,7 @@ Object.assign(T.fr, {
 });
 Object.assign(T.en, {
   "svcIds": SVC_IDS,
-  "nav.menu":"Menu","more":"Learn more","swipe":"Swipe to see all services","qr.title":"Open the site on your phone","qr.sub":"Scan this code with your camera.","qr.dl":"Download the QR code","qr.dlShort":"Download","qr.small":"QR code","skip":"Skip to content","svc.all.title":"All our services","svc.all.text":"Details, deliverables, method and plans.",
+  "nav.menu":"Menu","more":"Learn more","swipe":"Swipe to see all services","qr.title":"Open the site on your phone","qr.sub":"Scan this code with your camera.","qr.dl":"Download the QR code","qr.dlShort":"Download","qr.small":"QR code","tvqr.title":"Open TamisVigie on your phone","tvqr.sub":"Scan with your camera, then add the app to your home screen.","skip":"Skip to content","svc.all.title":"All our services","svc.all.text":"Details, deliverables, method and plans.",
   "foot.rights":"All rights reserved",
   "ab.eyebrow":"About Tamis AI Solutions",
   "ab.title":[["Useful AI,"],["safe and ","responsible."]],

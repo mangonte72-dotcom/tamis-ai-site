@@ -640,3 +640,12 @@ button,a{-webkit-tap-highlight-color:rgba(92,155,255,.18)}
 .qr-way>div{flex:1;min-width:0;display:flex;flex-direction:column;gap:2px}
 .qr-dl{font-size:14px;font-weight:600;color:var(--blue);text-decoration:none;padding:10px 4px;flex:none}
 @media (max-width:640px){.qr-card,.qr-way{display:none}}
+
+/* TamisVigie QR inside the app card (desktop & tablet) */
+.tv-qr{position:relative;z-index:1;display:flex;align-items:center;gap:18px;padding:14px;border:1px solid var(--line);border-radius:16px;background:rgba(255,255,255,.04)}
+.tv-qr img{flex:none;background:#fff;border-radius:10px;padding:5px}
+.tv-qr div{display:flex;flex-direction:column;gap:4px;min-width:0}
+.tv-qr b{font-size:15px;color:#fff}
+.tv-qr span{font-size:13.5px;color:var(--dim);line-height:1.45}
+.tv-qr a{font-size:13.5px;color:var(--sky);width:max-content}
+@media (max-width:640px){.tv-qr{display:none}}
