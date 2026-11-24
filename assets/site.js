@@ -504,7 +504,7 @@ $$(".of").forEach(function(o,i){
 });
 if($("#ring")) G.fromTo("#ring",{rotate:-30,scale:.8},{rotate:30,scale:1.05,ease:"none",scrollTrigger:{trigger:"#ring",start:"top bottom",end:"bottom top",scrub:true}});
 if($(".phone")){
-  G.fromTo(".phone",{y:80,rotate:-6},{y:-40,rotate:3,ease:"none",scrollTrigger:{trigger:".phone",start:"top bottom",end:"bottom top",scrub:true}});
+  G.fromTo(".phone",{y:60},{y:-30,ease:"none",scrollTrigger:{trigger:".phone",start:"top bottom",end:"bottom top",scrub:true}});
 }
 
 /* ---------- Language-dependent animations (rebuilt on switch) ---------- */
