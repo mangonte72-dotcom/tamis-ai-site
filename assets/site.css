@@ -628,3 +628,15 @@ button,a{-webkit-tap-highlight-color:rgba(92,155,255,.18)}
 }
 
 @media (prefers-reduced-motion:reduce){.swipe-hint i::after{animation:none}}
+
+/* QR code (desktop & tablet only: nobody scans their own phone screen) */
+.qr-card{display:flex;align-items:center;gap:20px;margin-top:8px;padding:16px 22px 16px 16px;border:1px solid var(--line);border-radius:20px;background:rgba(255,255,255,.04);max-width:460px}
+.qr-card img,.qr-way img{display:block;background:#fff;border-radius:12px;padding:6px;flex:none}
+.qr-card div{display:flex;flex-direction:column;gap:4px;min-width:0}
+.qr-card b{font-size:16px}
+.qr-card span{font-size:14px;color:var(--dim)}
+.qr-card a{font-size:14px;color:var(--sky);margin-top:4px;width:max-content}
+.qr-way img{border:1px solid var(--paper-line)}
+.qr-way>div{flex:1;min-width:0;display:flex;flex-direction:column;gap:2px}
+.qr-dl{font-size:14px;font-weight:600;color:var(--blue);text-decoration:none;padding:10px 4px;flex:none}
+@media (max-width:640px){.qr-card,.qr-way{display:none}}
